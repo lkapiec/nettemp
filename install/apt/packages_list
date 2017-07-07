@@ -1,10 +1,10 @@
 lighttpd
-php5-cgi 
-php5-sqlite 
-php5-fpm 
-php5-curl
-php5-mysql
-php5-snmp
+php7.0-cgi 
+php7.0-sqlite 
+php7.0-fpm 
+php7.0-curl
+php7.0-mysql
+php7.0-snmp
 sqlite3 
 msmtp 
 digitemp 
@@ -34,7 +34,7 @@ lynx
 expect
 socat
 build-essential
-python-dev
+python3-dev
 figlet
 libmodbus5
 iptables-persistent
@@ -42,3 +42,4 @@ apcupsd
 smstools
 mysql-client
 python-pymodbus
+acl
