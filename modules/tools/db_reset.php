@@ -1,7 +1,7 @@
 <?php
 $ROOT=dirname(dirname(dirname(__FILE__)));
 shell_exec("sudo chown -R root.www-data $ROOT");
-shell_exec("cd $ROOT && git reset --hard && cd -");
+//shell_exec("cd $ROOT && git reset --hard && cd -");
 
 shell_exec("sudo rm -rf $ROOT/dbf/*.db");
 shell_exec("sudo rm -rf $ROOT/tmp");
